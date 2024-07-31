@@ -10,9 +10,9 @@ while (index <= 5) {
 //? Istifadəçidən mənfi ədəd alana qədər ədəd al və həmin ədədlərin cəmini tap(While)
 let number = +prompt("Enter a number: ");
 let sum = 0;
-while (number >= 0) {
+while (number > 0) {
+  number = +prompt();
   sum += number;
-  number -= 1;
 }
 console.log(sum);
 
