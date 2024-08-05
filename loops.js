@@ -25,10 +25,10 @@ do {
 
 //Task 4
 //? 1-dən 100 - ə qədər 5 artımlar ədədləri sırala
-for (let index = 1; index <= 100; index++) {
-  if (index % 5 == 0) {
+for (let index = 1; index <= 100; index+=5) {
+  
     console.log(index);
-  }
+  
 }
 
 //Task 5
