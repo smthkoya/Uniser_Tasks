@@ -26,7 +26,6 @@ do {
 //Task 4
 //? 1-dən 100 - ə qədər 5 artımlar ədədləri sırala
 for (let index = 1; index <= 100; index+=5) {
-  
     console.log(index);
   
 }
