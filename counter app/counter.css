@@ -36,6 +36,7 @@ body {
   border-radius: 50%;
   font-size: 30px;
   border: transparent;
+  cursor: pointer;
 }
 
 .container .reset {
@@ -46,5 +47,6 @@ body {
   font-weight: 600;
   color: #fff;
   background-color: #2e2828;
-  border: transparent8;
+  border: transparent;
+  cursor: pointer;
 }
