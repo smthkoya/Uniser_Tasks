@@ -102,7 +102,7 @@ const countVowels = (text) => {
   let counter = 0;
   for (let i = 0; i < vowels.length; i++) {
     for (let j = 0; j < text.length; j++) {
-      if (text.charAt(j).includes(vowels.charAt(i))) {
+      if (text.charAt(j).includes(vowels.charAt(i).toLowerCase())) {
         counter++;
       }
     }
