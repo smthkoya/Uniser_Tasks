@@ -61,3 +61,16 @@ const {
 console.log(username); // Output: john_doe
 console.log(firstName); // Output: John
 console.log(city); // Output: New York
+
+//! 5
+// const numbers = [1, 2, 3, 4, 5];
+//  rest parametrdən istifadə edərək ilk ədədi və qalan ədədləri ekrana yazdırın
+const [first1, ...restOfNumbers] = numbers;
+console.log(first); // Output: 1
+console.log(restOfNumbers); // Output: [2, 3, 4, 5]
+
+//! 6
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const arr = [...arr1, ...arr2];
+console.log(arr);
